@@ -1,0 +1,268 @@
+@media only screen and (max-width: 900px){
+    .span-1{
+        top: 175px;
+        left: 30px;
+        
+    }
+    
+    .span-2{
+        top: 175px;
+        left: 430px;
+    }
+
+    .span-3{
+        top: 130px;
+        left: 30px;
+    }
+    
+    .span-4{
+        top: 130px;
+        left: 300px;
+    }
+    
+    .span-5{
+        bottom: 30px;
+        left: 550px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .header-wrapper{
+        width: 100%;
+    }
+
+    .header-content{
+        font-size: 12px;
+    }
+
+    .header-column{
+        width: 100%;
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+    .btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .benefit-wrapper{
+        margin-left: 20px;
+    }
+
+    #benefit{
+        left: 65px;
+    }
+
+    #next-trip{
+        margin: 350px auto  20px auto;
+    }
+
+    .play{
+        width: 70px;
+        top: 110px;
+        left: 300px;
+    }
+
+    .span-1{
+        top: 130px;
+        left: 30px;
+        
+    }
+
+    .span-2{
+        top: 130px;
+        left: 330px;
+    }
+
+    .span-3{
+        top: 100px;
+        left: 25px;
+    }
+    
+    .span-4{
+        top: 100px;
+        left: 230px;
+    }
+    
+    .span-5{
+        bottom: 15px;
+        left: 430px;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px){
+    .nav-link{
+        display: none;
+    }
+
+    .header-wrapper{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .header-column{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .column-text{
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+
+    .start{
+        margin-right: 8px;
+    }
+
+    .btn{
+        width: 100px;
+    }
+
+    #benefit{
+        left: 40px;
+        top: 500px;
+        padding-bottom: 20px;
+    }
+
+    .benefit-wrapper{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    #benefit h3{
+        margin-left: 50px;
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+    }
+
+    .benefit-icon{
+        margin-bottom: 8px;
+    }
+
+    .benefit-column h5{
+        margin-bottom: 5px;
+    }
+
+    .benefit-column p{
+        margin-bottom: 8px;
+    }
+
+    .benefit-column{
+        margin-bottom: 25px;
+    }
+
+    #next-trip{
+        margin: 590px auto  20px auto;
+    }
+
+    .trip-header{
+       justify-content: space-around;
+    }
+
+    .trip-header h3{
+        font-size: 14px;
+    }
+
+    #first{
+        margin-left: 25px;
+        width: 100px;
+    }
+
+    .insp-one{
+        flex-direction: column;
+    }
+
+    .insp-img, .insp-img-two{
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .span-1{
+        top: 150px;
+        left: 30px;
+    }
+    
+    .span-2{
+        top: 350px;
+        left: 30px;
+    }
+
+    .span-3{
+        top: 180px;
+        left: 30px;
+    }
+    
+    .span-4{
+        top: 420px;
+        left: 30px;
+    }
+    
+    .span-5{
+        bottom: 40px;
+        left: 30px;
+    }
+    
+
+    .insp-two{
+        flex-direction: column;
+    }
+
+    .neighbor-div{
+        flex-direction: column-reverse;
+    }
+
+    .neighbor-div img, .neighbor-div div{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .neighbor-div div h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prefecture-text{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #neighbor-div-2{
+        flex-direction: column-reverse;
+    }
+
+    .place-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .play{
+        width: 50px;
+        top: 55px;
+        left: 160px;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        
+    }
+
+    .content-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-item-wrapper{
+        margin: 20px 50px;
+    }
+
+    .footer-logo{
+       margin-left: 140px;
+    }
+
+}

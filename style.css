@@ -86,7 +86,6 @@
 .start{
     margin-right: 15px;
     font-size: 20px;
-    font-weight: 0;
 }
 
 .btn{
@@ -103,7 +102,7 @@
 
 #benefit{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background-color: #fff;
     width: 80%;
     position: absolute;
@@ -176,12 +175,22 @@
     font-size: 9px;
 }
 
-hr{
+#first{
     width: 150px;
     height: 2px;
     background-color: #006DFE;
     border: none;
     margin-bottom: 20px;
+    margin-left: 0;
+}
+
+#second{
+    width: 150px;
+    height: 2px;
+    background-color: #006DFE;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .insp-one{
@@ -209,32 +218,32 @@ hr{
 
 .span-1{
     position: absolute;
-    bottom: 15px;
-    left: 10px;
+    bottom: 25px;
+    left: 30px;
 }
 
 .span-2{
     position: absolute;
-    bottom: 10px;
-    right: 420px;
+    bottom: 25px;
+    right: 380px;
 }
 
 .span-3{
     position: absolute;
-    bottom: 20px;
-    left: 10px;
+    bottom: 25px;
+    left: 30px;
 }
 
 .span-4{
     position: absolute;
-    bottom: 10px;
-    left: 350px;
+    bottom: 25px;
+    left: 370px;
 }
 
 .span-5{
     position: absolute;
-    bottom: 20px;
-    right: 240px;
+    bottom: 25px;
+    right: 220px;
 }
 
 .img-text{
@@ -350,7 +359,7 @@ hr{
 .over img{
     width: 10px;
     height: 10px;
-    margin-top: 4px;
+    margin-top: 2px;
     margin-left: 3px;
 }
 
