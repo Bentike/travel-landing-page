@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     padding-bottom: 150px;
     position: relative;
-    z-index: -3;
+    z-index: 1;
 }
 
 #hero:before {
@@ -51,6 +51,50 @@
     color: #fff;
 }
 
+#bugger{
+    display: none;
+}
+
+.my-overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .93);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .my-overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .my-overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .my-overlay a:hover, .my-overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .my-overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
 .header-wrapper{
     color: #fff;
     margin-top: 100px;
@@ -106,9 +150,9 @@
     background-color: #fff;
     width: 80%;
     position: absolute;
-    top: 450px;
+    top: 480px;
     left: 100px;
-    z-index: 5;
+    z-index: 2;
 }
 
 #benefit h3{
@@ -199,6 +243,7 @@
     justify-content: space-between;
     margin-bottom: 5px;
     position: relative;
+    z-index: 2;
 }
 
 .insp-img{
@@ -210,6 +255,7 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
+    z-index: 2;
 }
 
 .insp-img-two{

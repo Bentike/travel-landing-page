@@ -94,8 +94,30 @@
 }
 
 @media only screen and (max-width: 500px){
+    .my-overlay {overflow-y: auto;}
+    .my-overlay a {font-size: 20px}
+    .my-overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+
     .nav-link{
         display: none;
+    }
+
+    #my-brand{
+        margin-left: -250px;
+    }
+
+    #bugger{
+        color: #fff;
+        display: block;
+        position: absolute;   
+        top: 40px;
+        right: 50px;
+        z-index: 20;
+        transition: 0.5s;
     }
 
     .header-wrapper{

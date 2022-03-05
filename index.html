@@ -12,7 +12,7 @@
 <body>
     <section id="hero">
        <div class="nav">
-            <img src="images/odigo-Logo.svg" alt="brand" class="brand">
+            <img src="images/odigo-Logo.svg" alt="brand" class="brand" id="my-brand">
             <ul class="nav-link">
                 <li><a href="#">Articles</a></li>
                 <li><a href="#">Locations</a></li>
@@ -20,6 +20,7 @@
                 <li><a href="#">Sigin in</a></li>
             </ul>
        </div>
+       
        <div class="header-wrapper">
             <div class="header-text">
                 Discover Amazing places in <br> Japan
@@ -38,6 +39,18 @@
            <button class="btn">SEARCH</button>
        </div>
     </section>
+
+    <div id="myNav" class="my-overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="my-overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <span id="bugger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
     <section id="benefit">
         <h3>Benefits of Odigo</h3>
@@ -348,5 +361,20 @@
         </div>
       </div>  
     </section>
+
+    <script>
+        let bugger = document.getElementById("bugger");
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+          bugger.style.display = "none";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+          setTimeout(function(){
+            bugger.style.display = "block";
+          }, 500)
+        }
+        </script>
 </body>
 </html>
